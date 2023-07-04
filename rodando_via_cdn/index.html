@@ -1,0 +1,32 @@
+<!-- via CDN é apenas para testes, não dever ser usado em aplicações profissionais -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- atributo 'defer' - irá carregar a tag a qual estiver alocado depois que tudo for careggado na página -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config ={
+            // estrutura para aplicar uma modificação;
+                theme:{
+
+                    extend:{
+
+                        colors:{
+
+                            vermelho: '#FF0000'
+                    }
+                }
+            }  
+        }
+    </script>
+</head>
+<body class="bg-vermelho">
+    <h1 class="text-3xl font-bold underline">
+        Hello World!
+    </h1>
+</body>
+</html>
