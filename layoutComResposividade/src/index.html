@@ -63,11 +63,155 @@
         'lg' = max-width: 1024px;
         'lx' = max-width: 1280px;
         '2lx' = max-width: 1536px; largura máxima;
-
+        
         possivel usar com outras classes não apenas cor
-     -->
+    -->
     <br>
     <hr>
     <br>
+    <h1 class="">Flexbox:</h1>
+    <br>
+    <div class="flex">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex flex-col">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+        <div class="flex gap-2">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex justify-center">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex justify-start">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex justify-between">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex justify-around">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex justify-evenly">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex items-end">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-8">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-12">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-16">4</div>
+    </div>
+    <br>
+    <div class="flex items-center">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-8">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-12">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-16">4</div>
+    </div>
+    <br>
+    <div class="flex items-start">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-8">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-12">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-16">4</div>
+    </div>
+    <br>
+    <div class="flex items-stretch">
+        <!-- todo moundo alinhado ao tamanho do maior -->
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-8">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-12">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-16">4</div>
+    </div>
+    <br>
+    <div class="flex items-center justify-center">
+        <div class="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-8">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-12">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-16">4</div>
+    </div>
+    <br>
+    <div class="flex">
+        <div class="flex-1 rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex">
+        <div class="grow rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex">
+        <div class="grow rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="grow rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="grow rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="grow rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex gap-3">
+        <div class="grow rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="grow rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="grow rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="grow rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex gap-3 mx-3">
+        <div class="grow rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="grow rounded-md bg-blue-500 text-white p-4">2</div>
+        <div class="grow rounded-md bg-blue-500 text-white p-4">3</div>
+        <div class="grow rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex gap-3 mx-3">
+        <div class="grow rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="grow order-first rounded-md bg-green-500 text-white p-4">2</div>
+        <div class="grow order-last rounded-md bg-teal-500 text-white p-4">3</div>
+        <div class="grow rounded-md bg-blue-500 text-white p-4">4</div>
+    </div>
+    <br>
+    <div class="flex flex-col gap-3 mx-3 sm:flex-row">
+        <div class="grow rounded-md bg-blue-500 text-white p-4">1</div>
+        <div class="grow rounded-md bg-green-500 text-white p-4">2</div>
+        <div class="grow rounded-md bg-teal-500 text-white p-4">3</div>
+        <div class="grow rounded-md bg-purple-500 text-white p-4">4</div>
+    </div
+    <!-- 
+        padrão do flex é flex-row;
+     -->
 </body>
 </html>
