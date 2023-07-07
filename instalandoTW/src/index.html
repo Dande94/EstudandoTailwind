@@ -69,7 +69,7 @@
 
       <h1 class="bg-blue-600 text-white font-bold w-1/5 h-24 p-10 m-40">espaçamento p-10 m-40</h1>
       <!-- 
-        'p-' : padding;
+          'p-' : padding;
         'm-' : margim;
         'mt-' : margim top;
         'mb-' : margim bottom;
@@ -77,16 +77,76 @@
         'mx-' : margim eixo X(horizontal);
         'mr-' : margim direita;
         'ml-' : margim esquerda;
-
+        
         'ml-2.5' : pássivel de aceitar números decimais, equivalencia é de 1:4px, nesse caso 2.5 é igual 10px;
         '-ml-2.5' : mesma configuração que o anterior porém negativo(*somente utilizavel com margim*);
-
+        
         'm-[10px]' : customizar tamanho(não aconselhavél)
         
         as mariações descritas em margim também serve pra padding
-       -->
+    -->
        <hr>
-       <h1 class="text-3xl font-bold underline text-center border-solid border-2 border-sky-500 rounded-full text-white my-2 mx-40">Espaçamento</h1>
+       <h1 class="text-3xl font-bold underline text-center border-solid border-2 border-sky-500 rounded-full text-white my-2 mx-40">Manipulação de Textos</h1>
+       
+       <h1 class="bg-blue-600 text-white font-bold w-3/5 h-24 text-base">tamanho de text-base</h1>
+       <h1 class="bg-blue-600 text-white font-bold w-3/5 h-24 text-xs">tamanho de text-xs</h1>
+       <h1 class="bg-blue-600 text-white font-bold w-3/5 h-24 text-xl">tamanho de text-xl</h1>
+       <h1 class="bg-blue-600 text-white font-bold w-3/5 h-24 text-lg">tamanho de text-xl</h1>
+       <h1 class="bg-blue-600 text-white font-bold w-3/5 h-24 text-6xl">tamanho de text-6xl</h1>
+       <br>
+       <h1 class="bg-blue-600 my-2 text-white font-bold w-3/5 h-24 text-base text-right">posição text-righ</h1>
+       <h1 class="bg-blue-600 my-2 text-white font-bold w-3/5 h-24 text-base text-left">posição text-left</h1>
+       <h1 class="bg-blue-600 my-2 text-white font-bold w-3/5 h-24 text-base text-center">posição text-center</h1>
+       <h1 class="bg-blue-600 my-2 text-white font-bold w-3/5 h-24 text-base text-center underline">marcação underline</h1>
+       <h1 class="bg-blue-600 my-2 text-white font-bold w-3/5 h-24 text-base text-center italic">marcação italic</h1>
+       <h1 class="bg-blue-600 my-2 text-white font-bold w-3/5 h-24 text-base text-center not-italic">marcação not-italic</h1>
+       <h1 class="bg-blue-600 my-2 text-white font-bold w-3/5 h-24 text-base text-center uppercase">marcação uppercase</h1>
+       <h1 class="bg-blue-600 my-2 text-white font-bold w-3/5 h-24 text-base text-center lowercase">marcação lowercase</h1>
+       <h1 class="bg-blue-600 my-2 text-white font-bold w-3/5 text-center text-2xl truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod excepturi facere maxime atque mollitia dolorem suscipit enim aperiam quidem ipsa sunt corrupti et perspiciatis doloribus laudantium neque sequi quia officia dolores possimus, facilis nemo ducimus quos repudiandae. Corrupti ut mollitia eveniet ea sapiente quidem nemo repudiandae explicabo. Mollitia, magni quos.</h1>
+       <h1 class="bg-blue-600 my-2 text-white font-bold w-3/5 text-justify text-2xl line-clamp-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod excepturi facere maxime atque mollitia dolorem suscipit enim aperiam quidem ipsa sunt corrupti et perspiciatis doloribus laudantium neque sequi quia officia dolores possimus, facilis nemo ducimus quos repudiandae. Corrupti ut mollitia eveniet ea sapiente quidem nemo repudiandae explicabo. Mollitia, magni quos.</h1>
+       <!--
+        tamanho da fonte: 
+           'text-base' : texto tamanho base do TW(16px);
+           'text-xs' : texto extra pequeno;
+           'text-sm' : texto pequeno;
+           'text-md' : texto medio;
+           'text-lg' : texto largo;
+           'text-xl' : texto extra largo;
+           'text-2xl' : texto extra largo 2(vai do 2 ao 9);
 
+        posição de texto
+            'text-right' : posiição do texto(right, left, center);
+            'text-justify' : justificado;
+
+        cores:
+        'text-white' : mesma lógica de colorir todo o TW;
+
+        marcações:
+        'underline' : sublinhado;
+        'italic' : italico;
+
+        peso da fonte:
+        '-bold' : negrito;
+        '-semibold' : meio - negrito;
+        '-black' : negrito escuro;
+
+        font-thin ...	font-weight: 100;
+        font-extralight...	font-weight: 200;
+        font-light...	font-weight: 300;
+        font-normal...	font-weight: 400;
+        font-medium...	font-weight: 500;
+        font-semibold...	font-weight: 600;
+        font-bold...	font-weight: 700;
+        font-extrabold...	font-weight: 800;
+        font-black...	font-weight: 900;
+
+        variação:
+        'uppercase' : letra maiuscula;
+        'lowercase' : letra minuscula;
+
+        overflow:
+        'truncate' : adiciona reticencias para texto que excedem o tamanho disponivel no elemento;
+        'line-clamp-' : mostra apenas uma quantidade de linhas especificas de um exto muito grande, como por exemplo 'line-clamp-3' que mostrará apenas 3 linha do texto, e assim sucessivamente;
+    -->
 </body>
 </html>
