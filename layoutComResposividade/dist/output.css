@@ -644,12 +644,24 @@ video {
   height: 6rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .w-60 {
   width: 15rem;
 }
 
 .w-40 {
   width: 10rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .flex-1 {
@@ -900,6 +912,34 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.fill-blue-500 {
+  fill: #3b82f6;
+}
+
+.fill-green-700 {
+  fill: #15803d;
+}
+
+.stroke-red-900 {
+  stroke: #7f1d1d;
+}
+
+.stroke-emerald-900 {
+  stroke: #064e3b;
+}
+
+.stroke-2 {
+  stroke-width: 2;
+}
+
+.stroke-0 {
+  stroke-width: 0;
+}
+
+.stroke-1 {
+  stroke-width: 1;
 }
 
 .p-12 {
