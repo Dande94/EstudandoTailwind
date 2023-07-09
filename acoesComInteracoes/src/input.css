@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .card{
+        @apply m-2 p-3 border-2 border-white rounded-md;
+    }
+}
+/* 
+criação de componenetes para classes prontas no TW;
+ */
 @layer base{
     h1{
         @apply text-2xl;
