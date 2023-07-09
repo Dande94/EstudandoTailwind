@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Ações e Interações</title>
+</head>
+<body class="container mx-auto">
+    <br>
+    <h1 class="">Hover e estados de elemento:</h1>
+    <br>
+    <button class="bg-red-200 hover:bg-blue-200 px-4 py-2 rounded-lg" type="button">Clique aqui</button>
+    <br>
+    <br>
+    <button class="bg-red-200 md:hover:bg-blue-200 px-4 py-2 rounded-lg" type="button">Clique aqui</button>
+    <br>
+    <br>    
+    <button class="bg-red-200 hover:bg-blue-200 active:bg-green-300 px-4 py-2 rounded-lg" type="button">Clique aqui</button>
+    <br>
+    <br>
+    <input type="text" class="w-full h-7 border-2 border-black m-3 focus:bg-green-200">
+    <br>
+    <br>
+    <input type="text" disabled class="w-full h-7 border-2 border-black m-3 disabled:bg-red-200">
+    <br>
+    <br>
+    <input type="file" class="w-full h-7 border-2 border-black m-3 file:bg-green-600 file:text-white">
+    <!-- 
+        possivel agregar pseudo-classes : 'md:hover:'
+
+        'hover:' :
+        'active:' : no botão aplica alteração enquanto o botão esta sendo pressionado;
+
+        'focus:' : aplica  alteração quando inputs estão selecionados;
+        'disabled:' : aplica  alteração quando inputs estão desativados;
+        'placeholder:' aplicar alterações no texto do place-holder
+        'file:' : aplica alterações no botão do input file
+     -->
+    <br>
+    <hr>
+</body>
+</html>
