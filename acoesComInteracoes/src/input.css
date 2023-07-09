@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    h1{
+        @apply text-2xl;
+        @apply bg-yellow-700;
+    }
+    h2{
+        @apply bg-[#FDFDFD];
+        /* ao aplicar uma exceção usar o valor hexadecimal completo (com 6digitos), pois com a abreviação não funciona */
+    }
+}
+/* 
+criando um estilo padrão dos h1, caso set alguma alteção inline a mesma irá sobre-escrever o modo padrão construido;
+*/
